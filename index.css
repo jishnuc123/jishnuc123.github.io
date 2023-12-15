@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(242, 201, 98);
+  z-index: 1;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbarNavDropdown {
+  background-color: rgb(242, 201, 98);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+#drop {
+  background-color: rgb(242, 201, 98);
+  text-align: center;
+  width: 100%;
+  position: static;
+  box-shadow: none;
+}
+#btn1 {
+  border-radius: 100px;
+  transition: 0.5s ease-in-out;
+}
+#btn1:hover {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  background-color: rgb(222, 221, 221);
+}
+.nav-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.nav-social span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.wallpaperflare.com/static/800/486/460/headphones-yellow-background-music-black-wallpaper.jpg);
+}
+.content {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+}
+.para1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.head1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Ubuntu";
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn:hover {
+  box-shadow: 10px 10px 32px -9px rgba(0, 0, 0, 0.75);
+}
+.head2 {
+  font-family: "Exo 2";
+  font-weight: bold;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.para2 {
+  text-align: justify;
+  margin-left: 170px;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+.btn2 {
+  font-weight: bold;
+  position: absolute;
+  border-radius: 20px;
+  font-size: 13px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.container3 {
+  display: flex;
+}
+
+.img-gallery {
+  display: flex;
+}
+
+.img-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-left: 150px;
+  padding-right: 100px;
+  padding-top: 5%;
+}
+.btn1 {
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 4%;
+  margin-left: 38%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn1:hover {
+  box-shadow: 10px 10px 32px -9px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  max-width: 550px;
+  text-align: center;
+  color: grey;
+}
+
+footer span {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: rgb(242, 201, 98);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+footer span:hover {
+  background-color: rgb(229, 191, 93);
+}
+
+.content-3 .heading {
+  background-color: rgb(242, 201, 98);
+}
+.content-3 .heading .main-content {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.reasons-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.reasons h5 {
+  position: relative;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.reasons h5::after {
+  position: absolute;
+  font-size: 60px;
+  color: rgb(242, 201, 98);
+  font-weight: 700;
+  left: 0;
+  top: -25px;
+  z-index: -1;
+}
+
+.reasons p {
+  font-size: 0.9em;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.reasons span {
+  color: rgb(242, 201, 98);
+}
+
+.reasons .h-1::after {
+  content: "01.";
+}
+.reasons .h-2::after {
+  content: "02.";
+}
+.reasons .h-3::after {
+  content: "03.";
+}
+.reasons .h-4::after {
+  content: "04.";
+}
+
+.caption {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery-img:hover .caption {
+  opacity: 1;
+}
